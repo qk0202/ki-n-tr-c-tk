@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignActivity"
+    android:orientation="vertical"
+    android:background="@drawable/lock"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:padding="20dp">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/sign_username"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lavender_border"
+            android:hint="Username"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:padding="8dp" />
+        <EditText
+            android:id="@+id/sign_password"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lavender_border"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_block_24"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign In "
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:textSize="20dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
